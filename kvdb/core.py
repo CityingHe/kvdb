@@ -45,8 +45,8 @@ def cli():
         else:
             exit_after_echo(cli.__doc__,color=None)
     except Exception as e:
-        # print('Err: %s' % e)
-        traceback.print_exc()
+        print('Err: %s' % e)
+        # traceback.print_exc()
         exit_after_echo(cli.__doc__,color=None)
 
     
