@@ -1,2 +1,2 @@
-# kvDB
+# kvdb
 My First NoSQL DB
